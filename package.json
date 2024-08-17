@@ -4,7 +4,8 @@
   "description": "Programación Reactiva Rxjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "webpack-dev-server": "^5.0.4"
   },
   "devDependencies": {
+    "webpack-cli": "^5.1.4",
     "wepack-cli": "^0.0.1-security"
   }
 }
