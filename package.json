@@ -1,0 +1,20 @@
+{
+  "name": "rxjs-prog-recative",
+  "version": "1.0.0",
+  "description": "Programación Reactiva Rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.8.1",
+    "webpack": "^5.93.0",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "devDependencies": {
+    "wepack-cli": "^0.0.1-security"
+  }
+}
