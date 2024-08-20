@@ -1,5 +1,5 @@
 //construyendo observable
-import { Observable, Subscriber } from "rxjs";
+import { Observable, fromEvent } from "rxjs";
 //Para identificar las variables  que son observables se define  con un $
 //se genera una  instancia de  un  observable 
 const onbservableAlfa$ = new Observable(
@@ -42,3 +42,17 @@ const observador = {
 */
 
 onbservableAlfa$.subscribe(observador); 
+
+/* Eventos */
+
+
+//MOuse move 
+const mouseMove$ = fromEvent(document, 'mousemove'); 
+
+//observador mouse  
+const observableMOuse = {
+    next: (event) => {
+        console.log('Mouse','x',event.x, 'y',event.y);  
+    }
+}
+mouseMove$.subscribe(observableMOuse)
